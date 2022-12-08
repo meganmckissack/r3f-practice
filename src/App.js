@@ -1,10 +1,13 @@
 import React from 'react';
+import { Canvas } from '@react-three/fiber';
+import { MeshNormalMaterial } from 'three';
+import Experience from './Experience.js'
 
 function App() {
   return (
-   <React.Fragment>
-    <h1>Hello React</h1>
-   </React.Fragment>
+   <Canvas>
+    <Experience />
+   </Canvas>
   );
 }
 
